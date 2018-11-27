@@ -1,80 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <RevitAddIns>
-  <AddIn Type="Command">
+  <AddIn Type="Application">
     <Name>MyRevitCommands</Name>
     <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>B6D68EDC-0A39-43A3-917E-7F7CB55AE348</AddInId>
-    <FullClassName>MyRevitCommands.GetElementId</FullClassName>
-    <Text>GetElementId</Text>
-    <Description>Get the Id from an element</Description>
-    <VendorId>Stephen Germano</VendorId>
+    <ClientId>cb5c768a-dc2f-4289-a803-58ee5afc5708</ClientId>
+    <FullClassName>MyRevitCommands.Ribbon</FullClassName>
+    <VendorId>GMEN</VendorId>
     <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
-  </AddIn>
-  <AddIn Type="Command">
-    <Name>MyRevitCommands</Name>
-    <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>58C9419F-F906-4364-9FFA-6890B525990F</AddInId>
-    <FullClassName>MyRevitCommands.CollectWindows</FullClassName>
-    <Text>CollectWindows</Text>
-    <Description>Collect all Windows from document</Description>
-    <VendorId>Stephen Germano</VendorId>
-    <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
-  </AddIn>
-  <AddIn Type="Command">
-    <Name>MyRevitCommands</Name>
-    <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>8509DC95-DBCE-46B5-AB29-C98403F59C2C</AddInId>
-    <FullClassName>MyRevitCommands.DeleteElements</FullClassName>
-    <Text>DeleteElements</Text>
-    <Description>Delete the selected Elements</Description>
-    <VendorId>Stephen Germano</VendorId>
-    <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
-  </AddIn>
-  <AddIn Type="Command">
-    <Name>MyRevitCommands</Name>
-    <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>085552AB-5C6E-4D6E-80F9-C8847CF2525D</AddInId>
-    <FullClassName>MyRevitCommands.PlaceFamily</FullClassName>
-    <Text>PlaceFamily</Text>
-    <Description>Places a thing</Description>
-    <VendorId>Stephen Germano</VendorId>
-    <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
-  </AddIn>
-  <AddIn Type="Command">
-    <Name>MyRevitCommands</Name>
-    <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>7F521D88-3B32-46A1-8F86-5778CAE5D366</AddInId>
-    <FullClassName>MyRevitCommands.GetParameter</FullClassName>
-    <Text>Get Parameter</Text>
-    <Description>Get all the things inside a thing</Description>
-    <VendorId>Stephen Germano</VendorId>
-    <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
-  </AddIn>
-  <AddIn Type="Command">
-    <Name>MyRevitCommands</Name>
-    <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>C45D4CAE-36EF-4EC9-AFB8-1225F0F3190A</AddInId>
-    <FullClassName>MyRevitCommands.SetParameter</FullClassName>
-    <Text>Set Parameter</Text>
-    <Description>Set all the thing inside a thing</Description>
-    <VendorId>Stephen Germano</VendorId>
-    <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
-  </AddIn>
-  <AddIn Type="Command">
-    <Name>MyRevitCommands</Name>
-    <Assembly>MyRevitCommands.dll</Assembly>
-    <AddInId>1BE2A04A-DEBA-42E6-915B-7470F9CB46B3</AddInId>
-    <FullClassName>MyRevitCommands.ProjectRay</FullClassName>
-    <Text>Project ray up</Text>
-    <Description>Find what is above</Description>
-    <VendorId>Stephen Germano</VendorId>
-    <VendorDescription>Sonic MEP Tools</VendorDescription>
-    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
   </AddIn>
 </RevitAddIns>
